@@ -1,0 +1,9 @@
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin->selain: päivittyneet muistiinpanot
+
+note over selain:
+selain suorittaa POST-pyynnön, jonka jälkeen uusi muistiinpano
+lähetetään palvelimelle. Tämän jälkeen automaattinen seuraaja
+huomaa, että palvelimen muistiinpanolista on muuttunut, joten se renderöi
+uuden muistiinpanolistan päivittämättä koko sivua (sovellusta)
+end note
